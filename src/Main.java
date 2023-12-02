@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // Create students
-        Student student1 = new Student("S001", "Alice");
-        Student student2 = new Student("S002", "Bob");
+        Student student1 = new Student("S001", "Alice","STU1");
+        Student student2 = new Student("S002", "Bob","STU2");
 
         // Create an exam
-        Exam mathExam = new Exam("Mathematics Exam", 100);
+        Exam mathExam = new Exam("Mathematics Exam", 100,50);
 
         // Enroll students in the exam
         mathExam.enrollStudent(student1);
