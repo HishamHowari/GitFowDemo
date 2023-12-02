@@ -7,7 +7,7 @@ public class Main {
         Student student2 = new Student("S002", "Bob","STU2");
 
         // Create an exam
-        Exam mathExam = new Exam("Mathematics Exam", 100);
+        Exam mathExam = new Exam("Mathematics Exam", 100,50);
 
         // Enroll students in the exam
         mathExam.enrollStudent(student1);
